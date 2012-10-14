@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "UICliper.h"
+@interface ViewController : UIViewController<UIImagePickerControllerDelegate, UINavigationControllerDelegate,UIActionSheetDelegate>{}
+@property (retain, nonatomic) IBOutlet UIImageView *imageView;
+@property(nonatomic,retain) IBOutlet UICliper *cliper;
+- (void)displayOverView:(UIImage *)image;
+- (void)croperPicture:(id)sender;
+- (UIImage*)getSubImage:(CGRect)rect;
+- (void)getImage:(id)sender;
 @end

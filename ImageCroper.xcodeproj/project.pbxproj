@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF9D300D16288BF20041F481 /* ud_narmal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9D300916288BF20041F481 /* ud_narmal@2x.png */; };
+		EF9D300E16288BF20041F481 /* ud_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9D300A16288BF20041F481 /* ud_hover@2x.png */; };
+		EF9D300F16288BF20041F481 /* rl_narmal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9D300B16288BF20041F481 /* rl_narmal@2x.png */; };
+		EF9D301016288BF20041F481 /* rl_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9D300C16288BF20041F481 /* rl_hover@2x.png */; };
+		EF9D30131628A17B0041F481 /* UICliper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9D30121628A17B0041F481 /* UICliper.m */; };
+		EFA703EE162AA81100CD40BE /* girl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EFA703ED162AA81100CD40BE /* girl.jpeg */; };
 		EFEA38BF1627F33A000A635C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEA38BE1627F33A000A635C /* UIKit.framework */; };
 		EFEA38C11627F33A000A635C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEA38C01627F33A000A635C /* Foundation.framework */; };
 		EFEA38C31627F33A000A635C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEA38C21627F33A000A635C /* CoreGraphics.framework */; };
@@ -15,22 +21,34 @@
 		EFEA38CF1627F33A000A635C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEA38CE1627F33A000A635C /* AppDelegate.m */; };
 		EFEA38D21627F33A000A635C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEA38D11627F33A000A635C /* ViewController.m */; };
 		EFEA38D51627F33A000A635C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFEA38D31627F33A000A635C /* ViewController.xib */; };
+		EFEA38E51627FA08000A635C /* UIImage-Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEA38E41627FA08000A635C /* UIImage-Extensions.m */; };
+		EFEA38F116280677000A635C /* game-tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = EFEA38F016280677000A635C /* game-tiles.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF9D300916288BF20041F481 /* ud_narmal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ud_narmal@2x.png"; sourceTree = "<group>"; };
+		EF9D300A16288BF20041F481 /* ud_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ud_hover@2x.png"; sourceTree = "<group>"; };
+		EF9D300B16288BF20041F481 /* rl_narmal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rl_narmal@2x.png"; sourceTree = "<group>"; };
+		EF9D300C16288BF20041F481 /* rl_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rl_hover@2x.png"; sourceTree = "<group>"; };
+		EF9D30111628A17B0041F481 /* UICliper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICliper.h; sourceTree = "<group>"; };
+		EF9D30121628A17B0041F481 /* UICliper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICliper.m; sourceTree = "<group>"; };
+		EFA703ED162AA81100CD40BE /* girl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpeg; sourceTree = "<group>"; };
 		EFEA38BA1627F33A000A635C /* ImageCroper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCroper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEA38BE1627F33A000A635C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EFEA38C01627F33A000A635C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EFEA38C21627F33A000A635C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EFEA38C61627F33A000A635C /* ImageCroper-Info.plist */ = {isa = PBXFileReference; path = "ImageCroper-Info.plist"; sourceTree = "<group>"; };
+		EFEA38C61627F33A000A635C /* ImageCroper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageCroper-Info.plist"; sourceTree = "<group>"; };
 		EFEA38C81627F33A000A635C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EFEA38CA1627F33A000A635C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EFEA38CC1627F33A000A635C /* ImageCroper-Prefix.pch */ = {isa = PBXFileReference; path = "ImageCroper-Prefix.pch"; sourceTree = "<group>"; };
-		EFEA38CD1627F33A000A635C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFEA38CC1627F33A000A635C /* ImageCroper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageCroper-Prefix.pch"; sourceTree = "<group>"; };
+		EFEA38CD1627F33A000A635C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFEA38CE1627F33A000A635C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EFEA38D01627F33A000A635C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EFEA38D01627F33A000A635C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EFEA38D11627F33A000A635C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EFEA38D41627F33A000A635C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EFEA38E31627FA08000A635C /* UIImage-Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Extensions.h"; sourceTree = "<group>"; };
+		EFEA38E41627FA08000A635C /* UIImage-Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Extensions.m"; sourceTree = "<group>"; };
+		EFEA38F016280677000A635C /* game-tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-tiles.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EFA703F0162AA84100CD40BE /* image */ = {
+			isa = PBXGroup;
+			children = (
+				EF9D300916288BF20041F481 /* ud_narmal@2x.png */,
+				EF9D300A16288BF20041F481 /* ud_hover@2x.png */,
+				EF9D300C16288BF20041F481 /* rl_hover@2x.png */,
+				EF9D300B16288BF20041F481 /* rl_narmal@2x.png */,
+				EFEA38F016280677000A635C /* game-tiles.png */,
+				EFA703ED162AA81100CD40BE /* girl.jpeg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 		EFEA38AF1627F33A000A635C = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +108,11 @@
 		EFEA38C41627F33A000A635C /* ImageCroper */ = {
 			isa = PBXGroup;
 			children = (
+				EFA703F0162AA84100CD40BE /* image */,
+				EF9D30111628A17B0041F481 /* UICliper.h */,
+				EF9D30121628A17B0041F481 /* UICliper.m */,
+				EFEA38E31627FA08000A635C /* UIImage-Extensions.h */,
+				EFEA38E41627FA08000A635C /* UIImage-Extensions.m */,
 				EFEA38CD1627F33A000A635C /* AppDelegate.h */,
 				EFEA38CE1627F33A000A635C /* AppDelegate.m */,
 				EFEA38D01627F33A000A635C /* ViewController.h */,
@@ -150,6 +186,12 @@
 			files = (
 				EFEA38C91627F33A000A635C /* InfoPlist.strings in Resources */,
 				EFEA38D51627F33A000A635C /* ViewController.xib in Resources */,
+				EFEA38F116280677000A635C /* game-tiles.png in Resources */,
+				EF9D300D16288BF20041F481 /* ud_narmal@2x.png in Resources */,
+				EF9D300E16288BF20041F481 /* ud_hover@2x.png in Resources */,
+				EF9D300F16288BF20041F481 /* rl_narmal@2x.png in Resources */,
+				EF9D301016288BF20041F481 /* rl_hover@2x.png in Resources */,
+				EFA703EE162AA81100CD40BE /* girl.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +205,8 @@
 				EFEA38CB1627F33A000A635C /* main.m in Sources */,
 				EFEA38CF1627F33A000A635C /* AppDelegate.m in Sources */,
 				EFEA38D21627F33A000A635C /* ViewController.m in Sources */,
+				EFEA38E51627FA08000A635C /* UIImage-Extensions.m in Sources */,
+				EF9D30131628A17B0041F481 /* UICliper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +316,7 @@
 				EFEA38DA1627F33A000A635C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
